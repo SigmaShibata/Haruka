@@ -26,12 +26,12 @@ if ($user_type == 2){
 
 <!-- ヘッダーの現在使用中スタンプ -->
       <?php if ($user_type == 2):?>
-        <img src="../スタンプ管理画面/image_<?= htmlspecialchars($stamp_id) ?>.png" class="headCat">
+        <img src="../manage_stamp/image_<?= htmlspecialchars($stamp_id) ?>.png" class="headCat">
       <?php endif; ?>
       
        <nav class="nav">
         <ul class="menu-group">
-          <li class="menu-item"><a href="../ログイン/logout.php"><img src="../head/ログアウトcat.png" class="logout-img" width ="140px"></a></li>
+          <li class="menu-item"><a href="../login/logout.php"><img src="../head/logoutcat.png" class="logout-img" width ="140px"></a></li>
           
         </ul>
       </nav>

@@ -17,8 +17,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <div class="menu-container">
     <nav class="vertical-nav">
         <ul>
-            <li><a href="../スタンプシート/stamp_sheet.php" class="<?= $currentPage == 'stamp_sheet.php' ? 'active' : '' ?>">スタンプシート</a></li>
-            <li><a href="../パスワード変更/passhenkou.php" class="<?= $currentPage == 'passhenkou.php' ? 'active' : '' ?>">パスワード変更</a></li>
+            <li><a href="../stamp_sheet/stamp_sheet.php" class="<?= $currentPage == 'stamp_sheet.php' ? 'active' : '' ?>">スタンプシート</a></li>
+            <li><a href="../change_password/passhenkou.php" class="<?= $currentPage == 'passhenkou.php' ? 'active' : '' ?>">パスワード変更</a></li>
         </ul>
      
 <!-- ナビの猫 -->
