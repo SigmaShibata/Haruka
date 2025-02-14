@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+.stu-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.stu-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #81f3d786, #a2f5f591);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#myTable {
+  width: 100%;
+  max-width: 1050px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#myTable th {
+  text-align: center;
+  background-color: #e6ecf0f1;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #d6dce2;
+}
+
+/* Table row styles */
+table tr {
+  transition: background-color 0.3s ease;
+}
+
+table tr:nth-child(odd) {
+  background-color: #e7eced41;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Table cell styles */
+#myTable td {
+  padding: 10px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+/* フォーム全体を一行に揃える */
+.form-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+
+/* 科目選択欄 (select) */
+#sub {
+  font-size: 16px;
+  max-width: 400px;
+  min-width: 100px;
+  text-align: center;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#sub:hover,
+#sub:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+/* チェックボックス欄 */
+label {
+  font-size: 17px;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #369a48;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: middle;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+label:hover input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+/* 検索入力欄 */
+#searchInput {
+  font-size: 16px;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+
+
+
+.sort-arrow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 0;
+  position: absolute;
+  top: 50;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.sort-arrow::before,
+.sort-arrow::after {
+  content: "";
+  display: inline-block;
+}
+
+.sort-arrow::before {
+  border-bottom: 5px solid currentColor;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transform: translate(-50%, -65%);
+}
+
+.sort-arrow::after {
+  border-top: 5px solid currentColor;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transform: translate(-50%, -35%);
+}
+
+.asc .sort-arrow::after,
+.desc .sort-arrow::before {
+  content: none;
+}
+
+/* @media screen and (max-width: 767px) {
+  .sort-arrow {
+      right: 10px;
+  }
+} */

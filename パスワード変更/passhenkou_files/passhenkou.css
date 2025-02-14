@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+h1 {
+  color: rgb(83, 83, 83);
+  font-size: 25px;
+}
+
+/*真ん中の背景*/
+.login-container {
+  max-width: 300px;
+  min-width: 300px;
+  background-color: rgba(233, 233, 233, 0.816);
+  backdrop-filter: blur(10px);
+  padding: 60px;
+  /* border-radius: 15px; */
+  box-shadow: 0 0 21px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* margin-left: 800px; */
+  margin-left: 838px;
+  margin-top: 102px;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+
+.character-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.character {
+  width: 10px;
+  height: 150px;
+  margin: 0 10px;
+  position: relative;
+  animation: characterMove 5s infinite;
+}
+
+/*猫のキャラクター設定*/
+.jeccat {
+  width: 220px;
+  height: 200px;
+  margin: -100px;
+  margin-top: -30px;
+  animation: characterMove 3s infinite;
+  cursor: grab;
+}
+
+/*キャラが動く*/
+@keyframes characterMove { 
+  5% { transform: translateY(0); }
+  25% { transform: translateY(-5px); }
+}  
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/*テキストボックス設定*/
+input {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+input::placeholder {
+  color: rgba(177, 177, 177, 0.8);
+}
+
+/*ボタン*/
+#loginbutton {
+  width: 50%;
+  padding: 15px;
+  background-color: rgb(104, 198, 123);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*ログインホバー*/
+#loginbutton:hover {
+  background-color: rgba(103, 193, 108, 0.777);
+}
+
+/*キャンセルボタン*/
+#cancelbutton {
+  width: 80%;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: rgb(171, 169, 169);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: 0 0 10px rgba(227, 227, 227, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+}
+
+/*キャンセルボタンホバー*/
+#cancelbutton:hover {
+  background-color: rgba(194, 188, 188, 0.777);
+}

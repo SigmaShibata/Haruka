@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/*背景*/
+.addAccount-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.addAccount-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #68c8ffcc, #68faffcc);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+} */
+
+
+/* 入力欄 */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 50%;
+  min-width: 200px;
+  font-size: 20px;
+  padding: 10px 12px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+/* 追加ボタン */
+#add_btn {
+  display: block;
+  width: 120px;
+  padding: 10px;
+  background-color: rgb(104, 198, 123);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  /* margin: auto; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#add_btn:hover {
+  background-color: #2a7b36;
+}
+
+
+.form-group select {
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fc {
+  color: red;
+}
+
+#teacher_btn {
+  width: 8%;
+  padding: 5px;
+  background-color: rgb(104, 198, 123);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+  font-size: large;
+  margin-left: 20px;
+}
+
+#stu_btn {
+  width: 8%;
+  padding: 5px;
+  background-color: rgb(192, 192, 192);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+  font-size: large;
+  margin-left: 20px;
+}
+
+#type {
+  display: block;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 20px;
+}
+
+#ppap {
+  display: block;
+  color: red;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* 下記メッセージの位置調節 */
+.success {
+  text-align: center;
+  font-size: 16px;
+  color: #246b8f;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  height: 10px;
+  visibility: hidden;
+}
+
+.success.visible {
+  visibility: visible;
+}
+
+.error {
+  text-align: center;
+  font-size: 16px;
+  color: #f04a45;
+  height: 10px;
+  visibility: hidden;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.error.visible {
+  visibility: visible;
+}

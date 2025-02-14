@@ -1,0 +1,961 @@
+[10-Dec-2024 16:17:35 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:17:35 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:17:35 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:11 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:11 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:11 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:13 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:13 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:13 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:22 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:22 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:22 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:23 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 31
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:18:23 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:23 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:24 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 15
+    [action] => change_subject
+    [selected_kamoku_id] => 31
+)
+
+[10-Dec-2024 16:18:24 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:24 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:26 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 25
+    [action] => change_subject
+    [selected_kamoku_id] => 15
+)
+
+[10-Dec-2024 16:18:26 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:26 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:28 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 25
+)
+
+[10-Dec-2024 16:18:28 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:28 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:30 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:30 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:30 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:31 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:31 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:31 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:32 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:32 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:32 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:33 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 31
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:18:33 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:33 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:34 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 14
+    [action] => change_subject
+    [selected_kamoku_id] => 31
+)
+
+[10-Dec-2024 16:18:34 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:34 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:36 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 35
+    [action] => change_subject
+    [selected_kamoku_id] => 14
+)
+
+[10-Dec-2024 16:18:36 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:36 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:37 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 35
+)
+
+[10-Dec-2024 16:18:37 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:37 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:38 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:38 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:38 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:40 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:40 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:40 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:41 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:18:41 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:41 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:43 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => update_students
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:18:43 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:43 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:45 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:45 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:45 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:46 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:46 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:46 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:48 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:48 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:48 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:49 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:49 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:49 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:51 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:51 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:51 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:52 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:52 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:52 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:55 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => update_students
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:18:55 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:55 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:57 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:57 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:57 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:18:58 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:18:58 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 39
+[10-Dec-2024 16:18:58 Asia/Tokyo] PHP Warning:  Undefined variable $action in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 45
+[10-Dec-2024 16:21:09 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:09 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:11 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:11 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:12 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:12 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:13 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:13 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:21:14 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 31
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:21:14 Asia/Tokyo] 切换科目: 31
+[10-Dec-2024 16:21:16 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 25
+    [action] => change_subject
+    [selected_kamoku_id] => 31
+)
+
+[10-Dec-2024 16:21:16 Asia/Tokyo] 切换科目: 25
+[10-Dec-2024 16:21:17 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 25
+)
+
+[10-Dec-2024 16:21:17 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:20 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => update_students
+    [selected_kamoku_id] => 29
+)
+
+[10-Dec-2024 16:21:20 Asia/Tokyo] 更新学生列表: Array
+(
+)
+
+[10-Dec-2024 16:21:25 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:25 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:26 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:26 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:27 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+)
+
+[10-Dec-2024 16:21:27 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:28 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:28 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:29 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+)
+
+[10-Dec-2024 16:21:29 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:21:30 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:21:30 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:33 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => update_students
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:21:33 Asia/Tokyo] 更新学生列表: Array
+(
+)
+
+[10-Dec-2024 16:21:36 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:36 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:37 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+)
+
+[10-Dec-2024 16:21:37 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:41 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:21:41 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:45 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => update_students
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:45 Asia/Tokyo] 更新学生列表: Array
+(
+    [0] => 23jn01@jec.ac.jp
+    [1] => 23jn0222@jec.ac.jp
+    [2] => 23jn0240@jec.ac.jp
+    [3] => test01@jec.ac.jp
+)
+
+[10-Dec-2024 16:21:46 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+)
+
+[10-Dec-2024 16:21:46 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:21:47 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 31
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:21:47 Asia/Tokyo] 切换科目: 31
+[10-Dec-2024 16:21:48 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 14
+    [action] => change_subject
+    [selected_kamoku_id] => 31
+)
+
+[10-Dec-2024 16:21:48 Asia/Tokyo] 切换科目: 14
+[10-Dec-2024 16:21:49 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 14
+)
+
+[10-Dec-2024 16:21:49 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:50 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:21:50 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:51 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 25
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:51 Asia/Tokyo] 切换科目: 25
+[10-Dec-2024 16:21:53 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 27
+    [action] => change_subject
+    [selected_kamoku_id] => 25
+)
+
+[10-Dec-2024 16:21:53 Asia/Tokyo] 切换科目: 27
+[10-Dec-2024 16:21:54 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 35
+    [action] => change_subject
+    [selected_kamoku_id] => 27
+)
+
+[10-Dec-2024 16:21:54 Asia/Tokyo] 切换科目: 35
+[10-Dec-2024 16:21:56 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 35
+)
+
+[10-Dec-2024 16:21:56 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:21:57 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:21:57 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:21:58 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:21:58 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:21:59 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:21:59 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:22:00 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:22:00 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:22:02 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => update_students
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:02 Asia/Tokyo] 更新学生列表: Array
+(
+    [0] => 23jn01@jec.ac.jp
+)
+
+[10-Dec-2024 16:22:03 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:22:03 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:22:04 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 34
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:04 Asia/Tokyo] 切换科目: 34
+[10-Dec-2024 16:22:05 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 31
+    [action] => change_subject
+    [selected_kamoku_id] => 34
+)
+
+[10-Dec-2024 16:22:05 Asia/Tokyo] 切换科目: 31
+[10-Dec-2024 16:22:06 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 31
+)
+
+[10-Dec-2024 16:22:06 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:22:07 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:07 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:22:08 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:08 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:22:09 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 29
+    [action] => change_subject
+    [selected_kamoku_id] => 16
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:09 Asia/Tokyo] 切换科目: 29
+[10-Dec-2024 16:22:14 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => change_subject
+    [selected_kamoku_id] => 29
+    [selected_students] => Array
+        (
+            [0] => 23jn01@jec.ac.jp
+            [1] => 23jn0222@jec.ac.jp
+            [2] => 23jn0240@jec.ac.jp
+            [3] => test01@jec.ac.jp
+        )
+
+)
+
+[10-Dec-2024 16:22:14 Asia/Tokyo] 切换科目: 16
+[10-Dec-2024 16:22:15 Asia/Tokyo] Received POST data: Array
+(
+    [subjects] => 16
+    [action] => update_students
+    [selected_kamoku_id] => 16
+)
+
+[10-Dec-2024 16:22:15 Asia/Tokyo] 更新学生列表: Array
+(
+)
+
+[10-Dec-2024 16:24:38 Asia/Tokyo] 更新学生列表: Array
+(
+)
+
+[10-Dec-2024 16:30:09 Asia/Tokyo] PHP Warning:  Undefined variable $selected_kamoku_id in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35
+[10-Dec-2024 16:30:09 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php(35): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[10-Dec-2024 16:30:15 Asia/Tokyo] PHP Warning:  Undefined variable $selected_kamoku_id in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35
+[10-Dec-2024 16:30:15 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php(35): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[10-Dec-2024 16:30:38 Asia/Tokyo] PHP Warning:  Undefined variable $selected_kamoku_id in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35
+[10-Dec-2024 16:30:38 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php on line 35 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\科目にユーザーを追加\kamokuUser.php(35): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[16-Jan-2025 14:44:07 Asia/Tokyo] PHP Warning:  Undefined array key "subjects" in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 61
+[16-Jan-2025 14:44:15 Asia/Tokyo] PHP Warning:  Undefined array key "subjects" in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 61
+[16-Jan-2025 14:46:03 Asia/Tokyo] PHP Warning:  Undefined array key "subjects" in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 61
+[23-Jan-2025 13:56:55 Asia/Tokyo] エラー: SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]オブジェクト名 'user_kamoku' が無効です。
+[23-Jan-2025 13:58:00 Asia/Tokyo] エラー: SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]オブジェクト名 'users' が無効です。
+[23-Jan-2025 13:58:00 Asia/Tokyo] エラー: SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]オブジェクト名 'user_kamoku' が無効です。
+[23-Jan-2025 13:58:32 Asia/Tokyo] エラー: SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]オブジェクト名 'users' が無効です。
+[23-Jan-2025 13:58:32 Asia/Tokyo] エラー: SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]オブジェクト名 'user_kamoku' が無効です。
+[23-Jan-2025 13:58:52 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:58:52 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:58:52 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 13:58:56 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:58:56 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:58:56 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 13:59:25 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:59:25 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 13:59:25 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:00:28 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:00:28 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:00:28 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:00:33 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:00:33 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:00:33 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:02:53 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:02:53 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:02:53 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:04:31 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:31 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:31 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:04:35 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:35 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:35 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[23-Jan-2025 14:04:41 Asia/Tokyo] PHP Warning:  Undefined array key 0 in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:41 Asia/Tokyo] PHP Warning:  Attempt to read property "kamoku_id" on null in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 30
+[23-Jan-2025 14:04:41 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: UserKamokuDAO::get_users_by_kamoku(): Argument #1 ($kamoku_id) must be of type int, null given, called in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php on line 34 and defined in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php:47
+Stack trace:
+#0 D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\履修登録管理\kamokuUser.php(34): UserKamokuDAO->get_users_by_kamoku(NULL)
+#1 {main}
+  thrown in D:\Web\SOTSU\2024\23JN02\G01\1班作業フォルダ\完成画面\helpers\UserKamokuDAO.php on line 47
+[30-Jan-2025 20:40:40 Asia/Tokyo] エラー: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]列名 'student_id' が無効です。

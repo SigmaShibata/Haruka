@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+.kadaiList-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kadaiList-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #8ae1f3cc, #b5fafc);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+#myTable {
+  width: 100%;
+  max-width: 1050px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#myTable th {
+  text-align: center;
+  background-color: #e6ecf0f1;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #d6dce2;
+}
+
+/* Table row styles */
+#myTable tr {
+  transition: background-color 0.3s ease;
+}
+
+#myTable tr:nth-child(odd) {
+  background-color: #e7eced41;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#myTable tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Table cell styles */
+#myTable td {
+  padding: 10px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* テーブルのチェックボックス */
+.checks {
+  width: 20px;
+  height: 20px;
+  accent-color: #369a48;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.checks:hover {
+  transform: scale(1.2);
+}
+
+/* コンテナ全体のスタイル */
+.form-inline {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 科目選択欄 (select) */
+#sub {
+  font-size: 16px;
+  padding: 8px 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  max-width: 500px;
+  min-width: 200px;
+  outline: none;
+}
+
+#sub:hover,
+#sub:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+/* 検索入力欄 */
+#searchInput {
+  font-size: 16px;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 8px 12px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+
+/* リンクの下線を消す */
+.kadaichange-link {
+  text-decoration: none;
+}
+
+/* リンクのcss */
+.kadaichange-link {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  color: rgb(85, 176, 103);
+}
+
+.kadaichange-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: rgb(104, 198, 123);
+  ;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+.kadaichange-link:hover::after {
+  width: 100%;
+}
+
+/*削除ボタン*/
+#sakujo {
+  display: block;
+  width: 5%;
+  padding: 10px;
+  background-color: #da5652;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 240px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/* メッセージ */
+span {
+  display: block;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+span[style="color:red"] {
+  color: #d9534f;
+  /* エラーメッセージ色 */
+}
+
+span[style="color:#246b8f"] {
+  color: #246b8f;
+  /* 成功メッセージ色 */
+}
+
+
+
+
+/* label {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.sorttbl {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  display: table;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.sorttbl tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+
+.sorttbl th:first-child,
+.sorttbl td:first-child {
+  padding-left: 16px;
+}
+
+.sorttbl td,
+.sorttbl th {
+  padding: 8px 8px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.sorttbl th {
+  color: #000000 !important;
+  background-color: #ffffff;
+}
+
+.fa fa-sort {
+  background-color: #000000;
+} */
+
+/* tr.clickable-row {
+  cursor: pointer; */
+/* ポインターに変化 */
+/* } */
+
+/* tr:hover { */
+/* background-color: #f0f8ff; */
+/* ホバー時の背景色 */
+/* } */
+
+
+
+
+/*=============
+.bg_pattern
+==============*/
+/* 
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c3ffa7bc;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.Cross {
+  background: radial-gradient(circle, transparent 20%, #c1ffa7 20%, #c7ffa7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #c4ffa7fb 20%, #b0ffa7 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#58ad40 4px, transparent 4px) 0 -2px, linear-gradient(90deg, #58ad40 4px, #cfffa7 4px) -2px 0;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+} */
+
+
+
+/*=============
+base
+==============*/
+/* 
+html,
+body {
+  margin: 0;
+  padding: 0;
+} */
+
+/* body {
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  letter-spacing: .025em;
+  line-height: 1.8;
+} */
+
+/* * {
+  box-sizing: border-box;
+}
+
+.section {
+  max-width: 1024x;
+  margin: 0 auto;
+  padding: 100px 20px 1000px;
+} */

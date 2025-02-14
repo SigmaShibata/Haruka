@@ -1,0 +1,182 @@
+/* Main container styling */
+.kamokuList-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.kamokuList-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #a8e5ffbd, #bdf7ff);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  max-width: 1050px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+table th {
+  text-align: center;
+  background-color: #e6ecf0f1;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #d6dce2;
+}
+
+/* Table row styles */
+table tr {
+  transition: background-color 0.3s ease;
+}
+
+table tr:nth-child(odd) {
+  background-color: #e7eced41;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Table cell styles */
+table td {
+  padding: 10px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* サーチ欄 */
+#searchInput {
+  font-size: 16px;
+  width: 100%;
+  max-width: 250px;
+  min-width: 100px;
+  padding: 8px 12px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+
+/* Checkbox styles */
+.checks {
+  width: 20px;
+  height: 20px;
+  accent-color: #369a48;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.checks:hover {
+  transform: scale(1.2);
+}
+
+
+/* リンクの下線を消す */
+.kamokuchange-link {
+  text-decoration: none;
+}
+
+/* リンクのcss */
+.kamokuchange-link {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  color: rgb(85, 176, 103);
+}
+
+.kamokuchange-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #31e237;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+.kamokuchange-link:hover::after {
+  width: 100%;
+}
+
+/*削除ボタン*/
+#sakujo {
+  display: block;
+  width: 80px;
+  padding: 10px;
+  background-color: #da5652;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 240px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+#sakujo:hover {
+  background-color: #c9302c;
+}
+
+/* メッセージ */
+span {
+  display: block;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+span[style="color:red"] {
+  color: #d9534f;
+  /* エラーメッセージ色 */
+}
+
+span[style="color:#246b8f"] {
+  color: #246b8f;
+  /* 成功メッセージ色 */
+}

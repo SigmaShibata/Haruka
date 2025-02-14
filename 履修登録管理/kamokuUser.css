@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*背景*/
+.kamokuUser-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kamokuUser-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #ffdea0, #ffeba8);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* コンテナ全体のスタイル */
+.kamokuUser-container .form-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  /* padding: 10px; */
+  gap: 20px;
+}
+
+/* 科目選択欄 (select) */
+#sub {
+  font-size: 17px;
+  max-width: 500px;
+  min-width: 200px;
+  padding: 8px 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#sub:hover,
+#sub:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+/* 検索入力欄 */
+#searchInput {
+  font-size: 17px;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+#myTable {
+  width: 100%;
+  /* max-width: 1200px; */
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+#myTable th {
+  text-align: center;
+  background-color: #e6ecf0f1;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #d6dce2;
+}
+
+/* Table row styles */
+table tr {
+  transition: background-color 0.3s ease;
+}
+
+table tr:nth-child(odd) {
+  background-color: #e7eced41;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Table cell styles */
+#myTable td {
+  padding: 10px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+}
+
+#update-form {
+  text-align: right;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#update-button {
+  display: block;
+  width: 80px;
+  padding: 10px;
+  background-color: rgb(104, 198, 123);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 100px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#update-button:hover {
+  background-color: #2a7b36;
+}
+
+/* テーブルのチェックボックス */
+.checks {
+  width: 20px;
+  height: 20px;
+  accent-color: #369a48;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.checks:hover {
+  transform: scale(1.2);
+}
+
+#checksAll {
+  width: 20px;
+  height: 20px;
+  accent-color: #369a48;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#checksAll:hover {
+  transform: scale(1.2);
+}
+
+.setumei {
+  color: #246b8f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,188 @@
+.kadaiSubmit-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kadaiSubmit-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #81f3d786, #81f3d786);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+form {
+  width: 100%;
+  max-width: 1300px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.input-container {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.input-container input {
+  flex: 1;
+  /* 同じwidth */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.kadaiSubmit-container input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+
+/* ステータスinfo */
+.status-container {
+  display: flex;
+  gap: 100px;
+  margin: auto;
+  margin-left: 130px;
+}
+
+.te span,
+#su span {
+  flex: 1;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.te span,
+#su span {
+  font-weight: bold;
+}
+
+.pre {
+  margin-left: 50px;
+}
+
+.kadaiSubmit-container textarea {
+  width: 80%;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  /* resize: none; */
+  resize: both;
+  margin: auto;
+}
+
+.kadaiSubmit-container textarea[readonly] {
+  background-color: #f9f9f9;
+}
+
+#comment {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+/* 提出ボタン */
+#teisyutu {
+  display: block;
+  width: 80px;
+  padding: 10px;
+  background-color: rgb(104, 198, 123);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#teisyutu:hover {
+  background-color: #2a7b36;
+}
+
+/*提出取り消しボタン*/
+#torikeshi {
+  display: block;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #da5652;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#torikeshi:hover {
+  background-color: #be2b26;
+}
+
+/* 下記メッセージの位置調節 */
+.success {
+  text-align: center;
+  font-size: 16px;
+  color: #246b8f;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  height: 10px;
+  visibility: hidden;
+}
+
+.success.visible {
+  visibility: visible;
+}
+
+.error {
+  text-align: center;
+  font-size: 16px;
+  color: #f04a45;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  height: 10px;
+  visibility: hidden;
+}
+
+.error.visible {
+  visibility: visible;
+}

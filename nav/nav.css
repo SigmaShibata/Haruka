@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+.menu-container .vertical-nav {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  margin-top: -8px;
+  background: linear-gradient(180deg, #f8f9fa, #e0e0e0);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.background {
+  width: 200px;
+  height: 110%;
+  background-color: rgba(213, 247, 213, 0.179);
+  position: fixed;
+  left: 0;
+  margin-top: -120px;
+  z-index: 1000;
+}
+
+
+.menu-container .vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
+/* 文字レイアウト */
+.menu-container .vertical-nav ul li a {
+  display: block;
+  color: #56b37c;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* ホバーしたとき */
+.menu-container .vertical-nav ul li a:hover {
+  /* background-color: #ffffff1a; */
+  /* border-left: 4px solid #ffffff1f; */
+  border-radius: 4px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateX(5px);
+  /* 右に少し移動 */
+}
+
+/* なんかかっこいいやつ */
+.menu-container a {
+  background-image: linear-gradient(to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 下の線 */
+.menu-container a:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-container a:hover {
+  background-position: 0;
+}
+
+.menu-container a:hover::before {
+  width: 100%;
+}
+
+.main-content {
+  margin-top: 102px;
+  margin-left: 205px;
+}
+
+
+
+/* 折りたたみのCSS */
+
+.menu-container details {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.menu-container details ul {
+  /* list-style-type: none; リストの点を消す */
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container details ul li a {
+  display: block;
+  color: #54b3d6;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.menu-container details ul li a:hover {
+  color: white;
+  background-color: #54b3d6;
+  /* ホバー時の背景色 */
+}
+
+
+.menu-container details summary {
+  cursor: pointer;
+  transition: 0.5s;
+  color: rgb(37, 37, 37);
+  padding: 1% 7%;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.menu-container details[open] summary {
+  background: #54b3d600;
+  padding-left: 4%;
+  font-weight: bold;
+  background-color: #54b3d6;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.menu-container details summary:hover {
+  color: white;
+  background-color: #54b3d6;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#inside-link {
+  display: block;
+  color: #56b37c;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 40px;
+  font-weight: 500
+}
+
+.menu-container .vertical-nav ul li a.active {
+  border-left: 7px solid #54b3d6;
+  color: #54b3d6;
+  margin-left: -10px;
+}
+
+.menu-container details ul li a.active {
+  padding-left: 60px;
+  color: #54b3d6;
+}
+
+
+
+/* Google Fonts 読み込み */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+
+/* 時計の共通スタイル */
+.clock {
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: 'Sour Gummy', cursive;
+  color: #757373;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 0.8;
+  /* line-height: 1.2; */
+  text-align: center;
+  position: fixed;
+  top: 800px;
+  left: 25px;
+  z-index: 10000;
+  
+}
+
+/* 日付のスタイル */
+.clock-date {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* 時間のスタイル */
+.clock-time {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* 文字サイズ調整 */
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 5vw;
+  }
+
+  .clock-time {
+    font-size: 5vw;
+  }
+}
+
+
+.navCat{
+  width: 220px;
+  height: 200px;
+  bottom: -400px;
+  right: 0;
+  opacity: 0.7;
+  z-index: -10000;
+  float: right;
+  position: relative ;
+  margin-top: -10%;
+  animation: characterMove 3s infinite;
+}
+
+/*キャラが動く*/
+@keyframes characterMove { 
+  5% { transform: translateY(0); }
+  25% { transform: translateY(-5px); }
+}  

@@ -1,0 +1,109 @@
+.stamp-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stamp-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #a0f894bd, #8dffbd88);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*変更ボタン*/
+#henko {
+  display: block;
+  width: 80px;
+  padding: 10px;
+  background-color: rgb(104, 198, 123);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#henko:hover {
+  background-color: #2a7b36;
+}
+
+#myTable {
+  width: 100%;
+  max-width: 800px;
+  max-height: 800px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#myTable td {
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+#myTable img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+#myTable td input[type="radio"] {
+  display: none;
+  /* デフォルトラジオボタンを隠す */
+}
+
+#myTable td label {
+  display: block;
+  cursor: pointer;
+}
+
+#myTable td label:hover img {
+  background-color: #7aff685f;
+  transform: scale(1.1);
+  /* hoverする時の色 */
+}
+
+#myTable td input[type="radio"]:checked+img {
+  background-color: #7ddf748a;
+  border-color: #56b37c;
+  /* チェックされた時の色 */
+}
+
+/* メッセージ */
+span {
+  display: block;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+span[style="color:red"] {
+  color: #d9534f;
+  /* エラーメッセージ色 */
+}
+
+span[style="color:#246b8f"] {
+  color: #246b8f;
+  /* 成功メッセージ色 */
+}

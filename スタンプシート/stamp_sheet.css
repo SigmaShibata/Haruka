@@ -1,0 +1,230 @@
+.sutamp-container {
+  max-width: 1600px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* z-index: -10001;
+  position: relative ; */
+}
+
+.sutamp-container h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #9de7f6bd, #9de7f6bd);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  border-radius: 6px;
+  color: #454545;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  /* color: #246b8f; */
+  text-align: center;
+  font-size: 25px;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #e6ecf0f1;
+  padding: 10px;
+  /* font-weight: bold; */
+  color: #333;
+  border: none;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #d6dce2;
+  /* margin: auto; */
+  /* margin-left: 300px; */
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+/* 科目選択欄 (select) */
+#sub {
+  /* display: block; */
+  font-size: 20px;
+  padding: 8px 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  max-width: 500px;
+  min-width: 200px;
+  outline: none;
+  /* margin: auto; */
+  margin-bottom: -30px;
+}
+
+#sub:hover,
+#sub:focus {
+  border-color: #246b8f;
+  box-shadow: 0 0 6px rgba(36, 107, 143, 0.5);
+}
+
+.stu_name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 70%;
+  /* height: 80%; */
+  max-width: 1000px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table td {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  color: #4e4e4e;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  /* aspect-ratio: 1; */
+}
+
+
+
+/* table {
+  border: 1px solid gray;
+  width: 70%;
+  height: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  border: 1px solid gray;
+  height: 100px;
+  width: 100px;
+
+} */
+
+.cell {
+  /* height: 100%; */
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+}
+
+.empty_kadai {
+  height: 30%;
+  width: 30%;
+  object-fit: contain;
+  position: relative;
+  margin-left: 35%;
+}
+
+/* リンクのcss */
+a {
+  text-decoration: none;
+  color: #616161;
+}
+
+/* .test-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
+
+
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stepup {
+  color: rgb(86, 86, 86);
+  float: right;
+  font-size: 22px;
+  padding-right: 70px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+  background-color: #f3e5f5;
+  padding: 20px;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* 1行に5列 */
+  gap: 0px;
+  /* 間のスペース */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-color: black;
+}
+
+.kadai-item {
+  flex: 1 1 calc(20% - 10px);
+  /* 1行に5つ (100% ÷ 5 = 20%) */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 150px;
+  width: 150px;
+
+  display: flex;
+  /* 子要素を縦に揃える */
+  flex-direction: column;
+  align-items: center;
+  /* 水平中央揃え */
+  justify-content: space-between;
+  /* 子要素間のスペースを均等に */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* .image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+} */
+
+/* .status {
+  margin-top: 10px;
+  font-size: 12px;
+} */
+
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap; 要素を折り返す */
+  gap: 0px;
+  /* カード間のスペース */
+  border: 2px solid #ccc;
+  /* グリッド全体にボーダー */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 180px;
+  justify-content: space-around;
+}
